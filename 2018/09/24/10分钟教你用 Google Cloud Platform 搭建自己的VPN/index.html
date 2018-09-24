@@ -2,7 +2,7 @@
 <hr>
 <p>[TOC]</p>
 <hr>
-<p>本教程以 Google Cloud Platform 为例进演示，如果你已经有国外主机仅想知道如何部署VPN，请直接跳到<a href="#jump=jump_2_build">这里</a>开始阅读</p>
+<p>本教程以 Google Cloud Platform 为例进演示，如果你已经有国外主机仅想知道如何部署VPN，请直接跳到<a href="#jump_2_build">这里</a>开始阅读</p>
 <hr>
 <h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul>
 <li><a href="#jump_2_visit_google">能够访问谷歌站点</a></li>
@@ -75,7 +75,7 @@
 </li>
 </ul>
 <hr>
-<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>本注意事项为我在使用过程当中从所遇到的问题当中整理得来，目前还未找到解决办法</p>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a><span id="jump_2_note">注意事项</span></h2><p>本注意事项为我在使用过程当中从所遇到的问题当中整理得来，目前还未找到解决办法</p>
 <ul>
 <li>多台（2台及以上）设备不能通过同一路由器进行VPN连接，一个路由器只能路由一台设备连接VPN</li>
 <li>同一账号可在多台设备上使用，但不能同时使用同一账号进行VPN连接</li>
@@ -83,12 +83,12 @@
 <hr>
 <h2 id="遇到问题了"><a href="#遇到问题了" class="headerlink" title="遇到问题了"></a>遇到问题了</h2><p>使用过程中出现任何问题都建议优先查看此<a href="https://gist.github.com/hwdsl2/9030462" target="_blank" rel="noopener">链接</a>，该VPN作者对使用者使用过程当中所产生的问题都做出了解答，如果问题仍然没有解决，不要犹豫，删掉所有实例及配置从<a href="#jump_2_create">这里</a>再次开始吧！</p>
 <hr>
-<h2 id="如何访问谷歌站点"><a href="#如何访问谷歌站点" class="headerlink" title="如何访问谷歌站点"></a>如何访问谷歌站点</h2><p>安装 Chrome 插件<a href="http://www.ggfwzs.com/" target="_blank" rel="noopener">谷歌访问助手</a>，如果为新版 Chrome 可能会发生安装失败，由于 Chrome 21.x 系列增加了对扩展插件安装的限制，自 Chrome 21.x 开始默认只允许从 Chrome Web Store （Chrome 网上应用店）安装扩展、应用及脚本，也就是意味着用户只能安装谷歌浏览器（Chrome Store）内的扩展插件，解决方法：</p>
+<h2 id="如何访问谷歌站点"><a href="#如何访问谷歌站点" class="headerlink" title="如何访问谷歌站点"></a><span id="jump_2_visit_google">如何访问谷歌站点</span></h2><p>安装 Chrome 插件<a href="http://www.ggfwzs.com/" target="_blank" rel="noopener">谷歌访问助手</a>，如果为新版 Chrome 可能会发生安装失败，由于 Chrome 21.x 系列增加了对扩展插件安装的限制，自 Chrome 21.x 开始默认只允许从 Chrome Web Store （Chrome 网上应用店）安装扩展、应用及脚本，也就是意味着用户只能安装谷歌浏览器（Chrome Store）内的扩展插件，解决方法：</p>
 <ol>
 <li>右击Chrome浏览器图标选择属性，</li>
 <li>在目标后面添加以下内容” –enable-easy-off-store-extension-install”（注：不包括前后双引号，包含空格）并保存，</li>
 <li>重启Chrome浏览器将插件拖拽至插件区即可。</li>
 </ol>
 <hr>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://medium.com/@YasuoYuHao/google-cloud-platform-%E6%90%AD%E5%BB%BA%E5%80%8B%E4%BA%BAvpn-358ccdbeca40" target="_blank" rel="noopener">Google Cloud Platform 搭建個人VPN</a></p>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>参考链接：<a href="https://medium.com/@YasuoYuHao/google-cloud-platform-%E6%90%AD%E5%BB%BA%E5%80%8B%E4%BA%BAvpn-358ccdbeca40" target="_blank" rel="noopener">Google Cloud Platform 搭建個人VPN</a><br>相关链接：<a href="https://www.jianshu.com/p/05bad6912954" target="_blank" rel="noopener">Google Cloud Platform免费申请&amp;一键搭建SSR &amp; BBR加速教程</a></p>
 </div></article></div><div class="post-paginator"><div class="post-links"><div class="post-next"><a href="/2018/09/22/FirstBlog/" class="next">下一篇<span></span></a></div></div></div><div id="uyan_frame"></div></div><div class="sidebar"><div class="social-links"><ul><li class="social-link"><a href="http://github.com/elephantNose" target="_blank" class="link-github"><i class="icon icon-github"></i></a></li><li class="social-link"><a target="_self" class="link-twitter"><i class="icon icon-twitter"></i></a></li><li class="social-link"><a target="_self" class="link-weibo"><i class="icon icon-weibo"></i></a></li><li class="social-link"><a href="dojohan@foxmail.com" target="_self" class="link-mail"><i class="icon icon-mail"></i></a></li></ul></div><div class="recent-posts widget"><h3 class="widget-title"> 近期文章</h3><div class="widget-content"><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/09/24/10分钟教你用 Google Cloud Platform 搭建自己的VPN/">10分钟教你用 Google Cloud Platform 搭建自己的VPN</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/09/22/FirstBlog/">FirstBlog</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/09/22/hello-world/">Hello World</a></li></ul></div></div><div class="recent-comment widget"><h3 class="widget-title"> 近期评论</h3><div class="widget-content"><div id="uyan_newcmt_unit"></div></div></div><div class="tag-lists widget"><h3 class="widget-title"> 标签</h3><div class="widget-content"></div></div><div class="archive-lists widget"><h3 class="widget-title"> 归档</h3><div class="widget-content"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a><span class="archive-list-count">3</span></li></ul></div></div></div></div></div><footer><div class="copyright"><div class="container"><div class="col-6"><div class="site-info">© 2018 <span class="icon icon-heart"></span> <a href="http://yoursite.com">John Do</a><span class="sep">/</span><a href="https://hexo.io/" target="_blank">Powered by Hexo</a><span class="sep">/</span><a href="https://github.com/littlewin-wang/hexo-theme-casual" target="_blank">Theme by casual</a></div></div><div class="col-6"><div class="site-contact"><div class="social-links"><ul><li class="social-link"><a href="http://github.com/elephantNose" target="_blank" class="link-github"><i class="icon icon-github"></i></a></li><li class="social-link"><a target="_self" class="link-twitter"><i class="icon icon-twitter"></i></a></li><li class="social-link"><a target="_self" class="link-weibo"><i class="icon icon-weibo"></i></a></li><li class="social-link"><a href="dojohan@foxmail.com" target="_self" class="link-mail"><i class="icon icon-mail"></i></a></li></ul></div></div></div></div></div></footer><a class="scroll-up"><span class="icon icon-up"></span></a><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><script src="/js/posfixed.js"></script><script src="/js/utils.js"></script><script src="/js/search.js"></script><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2128137"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-92791318-1",'auto');ga('send','pageview');</script><script src="https://cdn1.lncld.net/static/js/av-mini-0.6.10.js"></script><script src="http://jerry-cdn.b0.upaiyun.com/hit-kounter/hit-kounter-lc-0.2.0.js"></script></body></html>
