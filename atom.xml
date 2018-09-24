@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://elephantnose.github.io/"/>
   <updated>2018-09-24T01:41:42.339Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://elephantnose.github.io/</id>
   
   <author>
     <name>John Do</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>10分钟教你用 Google Cloud Platform 搭建自己的VPN</title>
-    <link href="http://yoursite.com/2018/09/24/10%E5%88%86%E9%92%9F%E6%95%99%E4%BD%A0%E7%94%A8%20Google%20Cloud%20Platform%20%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84VPN/"/>
-    <id>http://yoursite.com/2018/09/24/10分钟教你用 Google Cloud Platform 搭建自己的VPN/</id>
+    <link href="https://elephantnose.github.io/2018/09/24/10%E5%88%86%E9%92%9F%E6%95%99%E4%BD%A0%E7%94%A8%20Google%20Cloud%20Platform%20%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84VPN/"/>
+    <id>https://elephantnose.github.io/2018/09/24/10分钟教你用 Google Cloud Platform 搭建自己的VPN/</id>
     <published>2018-09-24T01:30:09.000Z</published>
     <updated>2018-09-24T01:41:42.339Z</updated>
     
@@ -40,14 +40,14 @@
     </summary>
     
     
-      <category term="谷歌云 VPN" scheme="http://yoursite.com/tags/%E8%B0%B7%E6%AD%8C%E4%BA%91-VPN/"/>
+      <category term="谷歌云 VPN" scheme="https://elephantnose.github.io/tags/%E8%B0%B7%E6%AD%8C%E4%BA%91-VPN/"/>
     
   </entry>
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/2018/09/22/FirstBlog/"/>
-    <id>http://yoursite.com/2018/09/22/FirstBlog/</id>
+    <link href="https://elephantnose.github.io/2018/09/22/FirstBlog/"/>
+    <id>https://elephantnose.github.io/2018/09/22/FirstBlog/</id>
     <published>2018-09-22T11:31:39.390Z</published>
     <updated>2018-09-22T11:40:23.198Z</updated>
     
@@ -68,8 +68,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/09/22/hello-world/"/>
-    <id>http://yoursite.com/2018/09/22/hello-world/</id>
+    <link href="https://elephantnose.github.io/2018/09/22/hello-world/"/>
+    <id>https://elephantnose.github.io/2018/09/22/hello-world/</id>
     <published>2018-09-22T10:09:57.398Z</published>
     <updated>2018-09-22T10:09:57.403Z</updated>
     
